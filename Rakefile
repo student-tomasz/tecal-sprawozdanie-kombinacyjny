@@ -1,7 +1,7 @@
 $lc = "xelatex"
 $lf = "-interaction=nonstopmode"
 
-$exec = "sprawozdanie-2.pdf"
+$exec = "sprawozdanie-kombinacyjny.pdf"
 
 rule '.pdf' => '.tex' do |t|
   2.times do
